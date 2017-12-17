@@ -13,7 +13,7 @@ public class Layout_20Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout_20);
     }
-    public void processOrder(View view){
+    public void pay(View view){
         Intent intent = new Intent();
 
         intent.setClass(Layout_20Activity.this, Layout_21Activity.class);

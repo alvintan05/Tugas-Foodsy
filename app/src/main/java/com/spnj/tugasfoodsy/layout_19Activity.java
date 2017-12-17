@@ -20,7 +20,7 @@ public class layout_19Activity extends AppCompatActivity {
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
     }
-    public void processOrder(View view){
+    public void delivery(View view){
         Intent intent = new Intent();
 
         intent.setClass(layout_19Activity.this, Layout_20Activity.class);
