@@ -10,7 +10,6 @@ import android.widget.ImageView;
 public class layout04 extends AppCompatActivity {
 
     ImageView back;
-    Button pindah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +17,6 @@ public class layout04 extends AppCompatActivity {
         setContentView(R.layout.activity_layout04);
 
         back =(ImageView) findViewById(R.id.back);
-        pindah = (Button)findViewById(R.id.yaAllah);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,12 +26,5 @@ public class layout04 extends AppCompatActivity {
             }
         });
 
-        pindah.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent y = new Intent(layout04.this, Layout_10.class);
-                startActivity(y);
-            }
-        });
     }
 }
