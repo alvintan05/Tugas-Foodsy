@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sahabatpnj.layout_foodies.layout04">
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xx"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/hadeh"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hadeh"
+        android:src="@drawable/ic_keyboard_backspace" />
+    <ImageView
+        android:layout_below="@id/wrong"
+        android:id="@+id/makanbang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/food"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/lupa"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/makanbang"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forgot"
+        android:textColor="#797878" />
+
+    <TextView
+        android:id="@+id/HFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hfft"
+        android:textColor="#797878"
+        android:layout_below="@id/lupa"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/hadeh"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yaAllah"
+        android:layout_alignStart="@+id/yaAllah"
+        android:layout_below="@+id/HFT"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/buttonwhite"
+        android:text="@string/email"
+        android:textColor="#817f7f" />
+
+    <Button
+        android:id="@+id/yaAllah"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hadeh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/buttonijo"
+        android:text="@string/send"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

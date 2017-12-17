@@ -50,9 +50,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_19Activity" />
         </activity>
-        <activity android:name=".Layout_21Activity">
-
-        </activity>
+        <activity android:name=".Layout_21Activity" />
+        <activity android:name=".foodies" />
+        <activity android:name=".Layout03" />
+        <activity android:name=".layout04" />
+        <activity android:name=".layout2"></activity>
     </application>
 
 </manifest>

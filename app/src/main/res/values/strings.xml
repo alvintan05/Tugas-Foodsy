@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">"           Foodsy"</string>
     <string name="title_activity_layout_10">Layout_10</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -86,4 +85,27 @@
     <string name="name_3"><b>Ramsey Gordon</b></string>
     <string name="date_3">May 20th, 2016</string>
     <string name="rev_3">The taste is .... I can\'t tell with any word. It taste so amazing and I recommend this to all of you.</string>
+
+
+    <string name="app_name">Food</string>
+    <string name="in"><b>SIGN IN</b></string>
+    <string name="up"><b>SIGN UP</b></string>
+    <string name="descript"><b>foodry</b></string>
+    <string name="user">USERNAME</string>
+    <string name="email">EMAIL ADDRESS</string>
+    <string name="pw">PASSWORD</string>
+    <string name="confirm">CONFIRM PASSWORD</string>
+    <string name="or"><b>OR</b></string>
+    <string name="fb">CONNECT WITH FACEBOOK</string>
+    <string name="twitter">CONNECT WITH TWITTER</string>
+    <string name="send">SEND PASSWORD</string>
+    <string name="forgot"><b>Forgot Password? click here</b></string>
+    <string name="hhh"><b>FORGOT YOUR PASSWORD?</b></string>
+    <string name="hfft">Enter your email below to receive the instructions to reset your password</string>
+    <string name="regist"><b>REGISTER NOW</b></string>
+    <string name="login">LOG IN</string>
+    <string name="futsi"><b>FOODSY</b></string>
+    <string name="xx"><b>X</b></string>
+
+
 </resources>
