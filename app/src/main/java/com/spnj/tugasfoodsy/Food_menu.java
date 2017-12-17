@@ -13,10 +13,10 @@ import android.widget.ImageView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Restaurant_list extends Fragment {
+public class Food_menu extends Fragment {
 
 
-    public Restaurant_list() {
+    public Food_menu() {
         // Required empty public constructor
     }
 
@@ -24,9 +24,10 @@ public class Restaurant_list extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         //pendefinisian image view
-        View rootView = inflater.inflate(R.layout.fragment_restaurant_list,container,false);
-        ImageView image = (ImageView) rootView.findViewById(R.id.gam1);
+        View rootView = inflater.inflate(R.layout.fragment_food_menu,container,false);
+        ImageView image = (ImageView) rootView.findViewById(R.id.image1);
         image.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -39,7 +40,8 @@ public class Restaurant_list extends Fragment {
 
     //prosedur intent image view
     public void updateDetail(){
-        Intent a = new Intent(getActivity(), Layout_15.class);
+        Intent a = new Intent(getActivity(), Layout_17Activity.class);
         startActivity(a);
     }
+
 }

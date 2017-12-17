@@ -84,7 +84,7 @@ public class Layout_10 extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.chart) {
-            startActivity(new Intent(this, Layout_18.class));
+            startActivity(new Intent(this, OrderActivity.class));
             return true;
         }
         return super.onOptionsItemSelected(item);

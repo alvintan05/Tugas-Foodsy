@@ -17,20 +17,11 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="17dp"
             android:layout_marginRight="17dp">
-            <ImageButton
-                android:contentDescription="@string/back_menu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:background="@android:color/transparent"
-                android:src="@drawable/ic_arrow_back_white_24dp"/>
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:layout_marginLeft="-50dp"
                 android:text="@string/order"
                 android:textColor="@color/colorAccent"
                 android:textSize="20sp"/>
@@ -59,7 +50,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/waybackburger"/>
+            android:src="@drawable/wayback_burger"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -128,7 +119,7 @@
             android:layout_width="133dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/waybackburger" />
+            android:src="@drawable/chicken_burger" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -192,10 +183,10 @@
 
         <ImageView
             android:contentDescription="@string/menu_choose3"
-            android:layout_width="124dp"
+            android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/waybackburger" />
+            android:src="@drawable/big_tomato_burger" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

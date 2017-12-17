@@ -33,7 +33,7 @@
     <string name="list_namk7">Soto</string>
 
     <string name="menu_choose">Wayback Burger</string>
-    <string name="menu_choose2">Double Bacon Burger</string>
+    <string name="menu_choose2">Chicken Burger</string>
     <string name="menu_choose3">Big Tomato Burger</string>
     <string name="wayback_details">Classic old school burger with 2 paddys, letuce, and cheddar cheese</string>
     <string name="add_order">Add to Cart</string>
@@ -46,7 +46,6 @@
     <string name="add">Add</string>
     <string name="total">Total</string>
     <string name="order_process">Order Confirmation</string>
-    <string name="order">Your Order</string>
 
     <string name="address_detail1">Street</string>
     <string name="address_detail2">City</string>
@@ -64,4 +63,27 @@
     <string name="process2">Process to Payment</string>
     <string name="process3">Pay Order</string>
     <string name="home">Home Address</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="list_txt1"><b>Wayback Burger</b></string>
+    <string name="list_txtk1">Classic old school burger with 2 paddys, lettuce and cheddar cheese</string>
+    <string name="list_mon1"><b>$12</b></string>
+    <string name="list_txt2"><b>Big Tomato Burger</b></string>
+    <string name="list_txtk2">Single paddy burger with lettuce and a thich slice of spanish tomato</string>
+    <string name="list_mon2"><b>$10</b></string>
+    <string name="list_txt3"><b>Chicken Burger</b></string>
+    <string name="list_txtk3">Burger with paddy made from premium quality chicken and organic vegetables</string>
+    <string name="list_mon3"><b>$14</b></string>
+    <string name="order">"Your Order"</string>
+    <string name="tot_rev"><b>23 Reviews</b></string>
+    <string name="name_1"><b>Sara Espinosa Garcia</b></string>
+    <string name="date_1">July 20th, 2017</string>
+    <string name="rev_1">Now this is what I call a burger place! Amazing food carefully prepared with the best quality ingredients around.</string>
+    <string name="name_2"><b>Jose Maria Penardi</b></string>
+    <string name="date_2">June 19th, 2016</string>
+    <string name="rev_2">This place is good but I feel that the meat is sometimes overcooked. It might be my own taste but overall it\'s still good.</string>
+    <string name="name_3"><b>Ramsey Gordon</b></string>
+    <string name="date_3">May 20th, 2016</string>
+    <string name="rev_3">The taste is .... I can\'t tell with any word. It taste so amazing and I recommend this to all of you.</string>
 </resources>

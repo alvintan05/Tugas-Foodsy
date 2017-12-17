@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spnj.tugasfoodsy.Place_reviews">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <RelativeLayout
+            android:id="@+id/tot_rev"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/box_grey">
+
+            <TextView
+                android:id="@+id/review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/tot_rev"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:numStars="5"
+                android:progressTint="#F1C40F"
+                android:rating="4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/user_1"
+                android:src="@drawable/user"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/rev_1"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_1"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/date_1"
+                android:layout_below="@+id/rev_1"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_1"
+                android:textSize="12sp"/>
+
+            <RatingBar
+                android:id="@+id/rating_1"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rev_1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:numStars="5"
+                android:progressTint="#F1C40F"
+                android:rating="4" />
+
+            <TextView
+                android:id="@+id/rev_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rev_1"
+                android:textSize="12sp"
+                android:layout_below="@+id/user_1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/user_2"
+                android:src="@drawable/user"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/rev_2"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_2"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/date_2"
+                android:layout_below="@+id/rev_2"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_2"
+                android:textSize="12sp"/>
+
+            <RatingBar
+                android:id="@+id/rating_2"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rev_2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:numStars="5"
+                android:progressTint="#F1C40F"
+                android:rating="3" />
+
+            <TextView
+                android:id="@+id/rev_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rev_2"
+                android:textSize="12sp"
+                android:layout_below="@+id/user_2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/user_3"
+                android:src="@drawable/user"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/rev_3"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_3"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/date_3"
+                android:layout_below="@+id/rev_3"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/user_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_3"
+                android:textSize="12sp"/>
+
+            <RatingBar
+                android:id="@+id/rating_3"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rev_3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:numStars="5"
+                android:progressTint="#F1C40F"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/rev_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rev_3"
+                android:textSize="12sp"
+                android:layout_below="@+id/user_3"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+
+
