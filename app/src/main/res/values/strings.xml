@@ -1,6 +1,6 @@
 <resources>
     <string name="title_activity_layout_10">Layout_10</string>
-
+    <string name="judul_app">Foodsy</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -99,13 +99,19 @@
     <string name="fb">CONNECT WITH FACEBOOK</string>
     <string name="twitter">CONNECT WITH TWITTER</string>
     <string name="send">SEND PASSWORD</string>
-    <string name="forgot"><b>Forgot Password? click here</b></string>
+    <string name="forgot"><b><u>Forgot Password? click here</u></b></string>
     <string name="hhh"><b>FORGOT YOUR PASSWORD?</b></string>
     <string name="hfft">Enter your email below to receive the instructions to reset your password</string>
     <string name="regist"><b>REGISTER NOW</b></string>
     <string name="login">LOG IN</string>
-    <string name="futsi"><b>FOODSY</b></string>
+    <string name="futsi"><b>Find Your Favourite Food In One Click</b></string>
     <string name="xx"><b>X</b></string>
+    <string name="ready_1">Ready in 25Min</string>
+    <string name="ready_2">Ready in 35Min</string>
+    <string name="ready_3">Ready in 15Min</string>
+    <string name="ready_4">Ready in 40Min</string>
+    <string name="detail">"Raja Burger Depok located in Politeknik Negeri Jakarta. Founded in 2015 by 5 PNJ students. Wayback Burger is the most delicious burger from this cafe."</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>

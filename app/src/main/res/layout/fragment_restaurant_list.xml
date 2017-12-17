@@ -50,7 +50,11 @@
 
                 <Button
                     android:id="@+id/but1"
-                    android:text=""
+                    android:text="@string/ready_1"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -96,6 +100,11 @@
 
                 <Button
                     android:id="@+id/but2"
+                    android:text="@string/ready_2"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -140,6 +149,11 @@
 
                 <Button
                     android:id="@+id/but3"
+                    android:text="@string/ready_3"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -185,6 +199,11 @@
 
                 <Button
                     android:id="@+id/but4"
+                    android:text="@string/ready_4"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -230,6 +249,11 @@
 
                 <Button
                     android:id="@+id/but5"
+                    android:text="@string/ready_1"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -275,6 +299,11 @@
 
                 <Button
                     android:id="@+id/but6"
+                    android:text="@string/ready_3"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -320,6 +349,11 @@
 
                 <Button
                     android:id="@+id/but7"
+                    android:text="@string/ready_4"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:background="@drawable/box_green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"

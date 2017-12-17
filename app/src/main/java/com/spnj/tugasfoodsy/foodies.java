@@ -1,4 +1,4 @@
-package sahabatpnj.layout_foodies;
+package com.spnj.tugasfoodsy;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Foodies extends AppCompatActivity {
+public class foodies extends AppCompatActivity {
 
     Button tombolsignin,button;
     @Override
@@ -20,14 +20,14 @@ public class Foodies extends AppCompatActivity {
         tombolsignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Foodies.this, Layout03.class);
+                Intent i = new Intent(foodies.this, Layout03.class);
                 startActivity(i);
             }
         });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a = new Intent(Foodies.this, layout2.class);
+                Intent a = new Intent(foodies.this, layout2.class);
                 startActivity(a);
 
             }

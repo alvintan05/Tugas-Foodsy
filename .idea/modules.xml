@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Tugas-Foodsy.iml" filepath="$PROJECT_DIR$/.idea/Tugas-Foodsy.iml" />
+      <module fileurl="file://D:\Android\Project\TugasFoodsy\.idea\Tugas-Foodsy.iml" filepath="D:\Android\Project\TugasFoodsy\.idea\Tugas-Foodsy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TugasFoodsy.iml" filepath="$PROJECT_DIR$/TugasFoodsy.iml" />
       <module fileurl="file://D:\Android_2\Project\Tugas-Foodsy\TugasFoodsy.iml" filepath="D:\Android_2\Project\Tugas-Foodsy\TugasFoodsy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

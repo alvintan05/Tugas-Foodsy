@@ -39,8 +39,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dp"
                 android:numStars="5"
-                android:progressTint="#F1C40F"
-                android:rating="4" />
+                android:rating="4"
+                android:theme="@style/RatingBar"/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -83,7 +83,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:numStars="5"
-                android:progressTint="#F1C40F"
+                android:theme="@style/RatingBar"
                 android:rating="4" />
 
             <TextView
@@ -136,7 +136,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:numStars="5"
-                android:progressTint="#F1C40F"
+                android:theme="@style/RatingBar"
                 android:rating="3" />
 
             <TextView
@@ -189,7 +189,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:numStars="5"
-                android:progressTint="#F1C40F"
+                android:theme="@style/RatingBar"
                 android:rating="5" />
 
             <TextView

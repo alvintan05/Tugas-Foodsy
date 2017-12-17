@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahabatpnj.layout_foodies.layout2">
+    tools:context="com.spnj.tugasfoodsy.layout2">
 
     <ImageView
-        android:id="@+id/panah"
+        android:id="@+id/panahback"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignBottom="@+id/textView3"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@+id/textView3"
         android:src="@drawable/ic_keyboard_backspace" />
 
     <TextView
@@ -27,51 +27,58 @@
         android:textColor="#000000"
         android:textSize="20sp" />
 
-    <Button
+    <EditText
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/panah"
+        android:padding="10dp"
+        android:layout_below="@+id/panahback"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/user"
+        android:hint="@string/user"
         android:textColor="#817f7f" />
 
-    <Button
+    <EditText
         android:id="@+id/imel"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
+        android:padding="10dp"
         android:layout_alignStart="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="20dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
         android:textColor="#817f7f" />
 
-    <Button
+    <EditText
         android:id="@+id/pww"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_alignLeft="@+id/imel"
         android:layout_alignStart="@+id/imel"
         android:layout_below="@+id/imel"
         android:layout_marginTop="15dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/pw"
+        android:hint="@string/pw"
+        android:inputType="textPassword"
         android:textColor="#817f7f" />
 
-    <Button
+    <EditText
         android:id="@+id/konfirm"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_alignLeft="@+id/pww"
         android:layout_alignStart="@+id/pww"
         android:layout_below="@+id/pww"
         android:layout_marginTop="14dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/confirm"
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
         android:textColor="#817f7f" />
 
     <Button
@@ -110,6 +117,7 @@
         android:text="@string/fb" />
 
     <Button
+        android:id="@+id/button_twit"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button3"

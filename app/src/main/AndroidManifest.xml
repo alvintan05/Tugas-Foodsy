@@ -2,14 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.spnj.tugasfoodsy">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launcher_foodsy"
+        android:label="@string/judul_app"
+        android:roundIcon="@mipmap/ic_launcher_foodsy_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Layout_1">
+        <activity android:name=".foodies">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,10 +56,24 @@
                 android:value=".layout_19Activity" />
         </activity>
         <activity android:name=".Layout_21Activity" />
-        <activity android:name=".foodies" />
         <activity android:name=".Layout03" />
         <activity android:name=".layout04" />
-        <activity android:name=".layout2"></activity>
+        <activity android:name=".layout2" />
+        <activity android:name=".fb" />
+        <activity android:name=".twitter" />
+
+        <!--Maps Android Key-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBBySYVw3Qt_b_nF3xKP83ghE-BCAFyl4o"/>
+
+        <!--Maps-->
+
     </application>
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"
+        />
 </manifest>

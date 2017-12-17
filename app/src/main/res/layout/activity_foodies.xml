@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahabatpnj.layout_foodies.Foodies">
+    tools:context="com.spnj.tugasfoodsy.foodies">
 
     <ImageView
         android:id="@+id/fotopasta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/tombolsignin"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="88dp"
+        android:layout_centerHorizontal="true"
         android:contentDescription="@string/descript"
         android:src="@drawable/logo" />
 
@@ -25,7 +23,7 @@
         android:layout_marginBottom="21dp"
         android:text="@string/futsi"
         android:textColor="#630800"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true" />
 
     <Button

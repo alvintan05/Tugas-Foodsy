@@ -4,49 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahabatpnj.layout_foodies.Layout03">
+    tools:context="com.spnj.tugasfoodsy.Layout03">
 
     <ImageView
         android:id="@+id/panahh"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignBottom="@+id/see"
-        android:layout_toLeftOf="@+id/imageView3"
-        android:layout_toStartOf="@+id/imageView3"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
         android:src="@drawable/ic_keyboard_backspace" />
 
     <TextView
 
+        android:id="@+id/see"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/in"
-        android:textColor="#000000"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/see" />
+        android:layout_marginTop="15dp"
+        android:text="@string/in"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
-    <Button
+    <EditText
         android:id="@+id/button4"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
+        android:padding="10dp"
+        android:layout_below="@+id/panahh"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
         android:textColor="#817f7f" />
 
-    <Button
+    <EditText
         android:id="@+id/pwww"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_alignLeft="@+id/button4"
         android:layout_alignStart="@+id/button4"
         android:layout_below="@+id/button4"
         android:layout_marginTop="15dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/pw"
+        android:hint="@string/pw"
+        android:inputType="textPassword"
         android:textColor="#817f7f" />
 
     <Button

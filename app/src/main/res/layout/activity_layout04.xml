@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sahabatpnj.layout_foodies.layout04">
+    tools:context="com.spnj.tugasfoodsy.layout04">
 
     <TextView
         android:id="@+id/wrong"
@@ -44,21 +44,24 @@
         android:id="@+id/HFT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/hfft"
         android:textColor="#797878"
         android:layout_below="@id/lupa"
         android:textAlignment="center"/>
 
-    <Button
+    <EditText
         android:id="@+id/hadeh"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_alignLeft="@+id/yaAllah"
         android:layout_alignStart="@+id/yaAllah"
         android:layout_below="@+id/HFT"
         android:layout_marginTop="19dp"
         android:background="@drawable/buttonwhite"
-        android:text="@string/email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
         android:textColor="#817f7f" />
 
     <Button
