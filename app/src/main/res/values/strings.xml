@@ -31,4 +31,27 @@
     <string name="list_namk6">Siomay</string>
     <string name="list_nam7">Soto Kuah Cinta</string>
     <string name="list_namk7">Soto</string>
+
+    <string name="menu_choose">Wayback Burger</string>
+    <string name="menu_choose2">Double Bacon Burger</string>
+    <string name="menu_choose3">Big Tomato Burger</string>
+    <string name="wayback_details">Classic old school burger with 2 paddys, letuce, and cheddar cheese</string>
+    <string name="add_order">Add to Cart</string>
+    <string name="wayback_price">$12</string>
+    <string name="bacon_price">$14</string>
+    <string name="tomato_price">$10</string>
+    <string name="back_menu">Back</string>
+    <string name="number">1</string>
+    <string name="remove">Min</string>
+    <string name="add">Add</string>
+
+    <string name="address_detail1">Street</string>
+    <string name="address_detail2">City</string>
+    <string name="address_detail3">Zip Code</string>
+    <string name="address_detail4">Phone Number</string>
+
+    <string name="payment_detail1">Name</string>
+    <string name="payment_detail2">Card Number</string>
+    <string name="payment_detail3">Date</string>
+    <string name="payment_detail4">CCV</string>
 </resources>
