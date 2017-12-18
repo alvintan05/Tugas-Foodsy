@@ -113,5 +113,25 @@
     <string name="detail">"Raja Burger Depok located in Politeknik Negeri Jakarta. Founded in 2015 by 5 PNJ students. Wayback Burger is the most delicious burger from this cafe."</string>
     <string name="title_activity_maps">Map</string>
 
+        <string name="search">Search Restaurant</string>
+        <string name="find">FIND RESTAURANTS</string>
+
+        <string name="title_activity_welcome">Home Screen</string>
+        <string name="next">NEXT</string>
+        <string name="skip">SKIP</string>
+        <string name="start">GOT IT</string>
+
+        <string name="slide_1_title"><b>Eat from the best restaurant</b></string>
+        <string name="slide_1_desc">Access all the best restaurants around you and enjoy their cuisine at home </string>
+
+        <string name="slide_2_title"><b>Choose the food you love</b></string>
+        <string name="slide_2_desc">Our delivery service offers you a wide range of fresh meals prepared at the moment </string>
+
+        <string name="slide_3_title"><b>Sit back, dinner is on the way</b></string>
+        <string name="slide_3_desc">Get ready and comfortable while our bikers bring your meal at your door </string>
+
+        <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+        <string name="play_again">Play Again</string>
+
 
 </resources>

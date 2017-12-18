@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#3cb962"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/foodsy_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-45dp"/>
+    <LinearLayout
+
+        android:layout_width="265dp"
+        android:layout_height="149dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="#f5f5f6"
+            android:backgroundTint="#f5f5f6"
+            />
+
+        <Button
+            android:id="@+id/find_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_dark"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:text="@string/find"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#3cb962"
+        android:src="@drawable/ic_location_on_white_24dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depok, Jawa Barat"
+        android:textColor="#fff"
+        android:layout_below="@id/loc"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
