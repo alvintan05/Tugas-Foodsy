@@ -18,9 +18,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
-public class Layout_10 extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class Layout_10 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     ViewPager viewPager;
     TabLayout tl;
@@ -66,7 +66,7 @@ public class Layout_10 extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
-    }
+}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -115,41 +115,42 @@ public class Layout_10 extends AppCompatActivity
         return true;
     }
 
-    //Membuat Tab Layout
-    class MyAdapter extends FragmentStatePagerAdapter {
-        public MyAdapter(FragmentManager fm) {
-            super(fm);
-        }
 
-        @Override
-        public Fragment getItem(int position) {
-            Fragment f = null;
-            if (position ==0){
-                f = new Restaurant_list();
-            }
-            if(position==1){
-                f = new Restaurant_map();
-            }
-            return f;
-        }
-
-        @Override
-        public int getCount() {
-            return 2;
-        }
-
-        @Override
-        public CharSequence getPageTitle(int position){
-            String name = null;
-            if (position==0){
-                name = "Restaurant List";
-            }
-            if (position==1){
-                name = "Restaurant Map";
-            }
-            return name;
-        }
-
+//Membuat Tab Layout
+class MyAdapter extends FragmentStatePagerAdapter {
+    public MyAdapter(FragmentManager fm) {
+        super(fm);
     }
+
+    @Override
+    public Fragment getItem(int position) {
+        Fragment f = null;
+        if (position == 0) {
+            f = new Restaurant_list();
+        }
+        if (position == 1) {
+            f = new Restaurant_map();
+        }
+        return f;
+    }
+
+    @Override
+    public int getCount() {
+        return 2;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        String name = null;
+        if (position == 0) {
+            name = "Restaurant List";
+        }
+        if (position == 1) {
+            name = "Restaurant Map";
+        }
+        return name;
+    }
+
+}
 
 }

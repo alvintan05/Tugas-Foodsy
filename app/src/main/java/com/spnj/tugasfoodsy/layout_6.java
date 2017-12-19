@@ -1,4 +1,4 @@
-package com.example.ranisavira.foodsy_my_own_layout;
+package com.spnj.tugasfoodsy;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

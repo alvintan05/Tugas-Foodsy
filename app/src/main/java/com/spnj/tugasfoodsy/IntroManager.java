@@ -1,4 +1,4 @@
-package com.example.ranisavira.foodsy_my_own_layout;
+package com.spnj.tugasfoodsy;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
  */
 
 public class IntroManager {
-    SharedPreferences preferences;
+    static SharedPreferences preferences;
     SharedPreferences.Editor editor;
     Context context;
 

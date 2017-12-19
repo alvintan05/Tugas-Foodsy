@@ -75,6 +75,10 @@
         <!-- Maps -->
 
         <activity android:name=".layout_9"></activity>
+        <activity android:name=".layout_6"></activity>
+        <activity android:name=".layout_7"></activity>
+        <activity android:name=".layout_8"></activity>
+        <activity android:name=".WelcomeActivity"></activity>
     </application>
 
 </manifest>

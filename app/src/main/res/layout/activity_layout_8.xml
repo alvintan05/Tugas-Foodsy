@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffff"
-    tools:context="com.example.ranisavira.foodsy_my_own_layout.layout_6">
+    tools:context="com.spnj.tugasfoodsy.layout_8">
 
     <LinearLayout
         android:layout_width="match_parent"

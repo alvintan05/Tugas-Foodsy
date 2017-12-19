@@ -8,13 +8,13 @@ import android.widget.Button;
 
 public class layout_9 extends AppCompatActivity {
 
-    Button find_btn;
+    Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout_9);
-        find_btn=(Button) findViewById(R.id.find_btn);
-        find_btn.setOnClickListener(new View.OnClickListener() {
+        btn=(Button) findViewById(R.id.find_btn);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent btn = new Intent(layout_9.this,Layout_10.class);

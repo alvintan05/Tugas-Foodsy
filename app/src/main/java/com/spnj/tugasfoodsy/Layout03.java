@@ -14,7 +14,7 @@ public class Layout03 extends AppCompatActivity {
 
     TextView klik;
     ImageView pan;
-    Button fb, twit;
+    Button fb, twit,login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +55,15 @@ public class Layout03 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent twit = new Intent (Layout03.this, twitter.class);
                 startActivity(twit);
+            }
+        });
+
+        login = (Button)findViewById(R.id.inn);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent login = new Intent(Layout03.this, WelcomeActivity.class);
+                startActivity(login);
             }
         });
 

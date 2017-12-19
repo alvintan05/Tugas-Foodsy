@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class layout2 extends AppCompatActivity {
     ImageView panah;
-    Button fb, twit;
+    Button fb, twit,signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +39,15 @@ public class layout2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent twit = new Intent (layout2.this, twitter.class);
                 startActivity(twit);
+            }
+        });
+
+        signup = (Button)findViewById(R.id.konf);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signup = new Intent(layout2.this, WelcomeActivity.class);
+                startActivity(signup);
             }
         });
     }
